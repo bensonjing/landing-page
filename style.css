@@ -50,3 +50,50 @@ a {
   color: var(--secondary-light); 
   text-decoration: none;
 }
+
+/* Welcome */
+.welcome {
+  background-color: var(--primary-dark);
+}
+
+.welcome.content {
+  width: 80vw; 
+  margin: auto; 
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.welcome.left {
+
+}
+
+.welcome.title {
+  color: var(--primary-light);
+  font-size: var(--large-size); 
+  font-weight: var(--thick-weight);
+}
+
+.welcome.text {
+  color: var(--secondary-light); 
+  font-size: var(--small-size); 
+}
+
+.sign-up-btn {
+  background-color: var(--accent);
+  color: var(--primary-light); 
+  border: none; 
+  margin-top: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.welcome-img {
+  width: 70vw; 
+  background-color: gray;
+  color: var(--secondary-light);
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
