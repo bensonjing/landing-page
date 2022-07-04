@@ -168,3 +168,12 @@ a {
 .sign-up .sign-up-btn {
   border: solid var(--primary-light) 1px;
 }
+
+/* Footer */
+.footer {
+  background-color: var(--primary-dark);
+  color: var(--primary-light); 
+  font-weight: var(--light-weight);
+  padding: 20px; 
+  text-align: center;
+}
