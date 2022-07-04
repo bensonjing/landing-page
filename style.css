@@ -148,3 +148,23 @@ a {
 .quote .author {
   text-align: end;
 }
+
+/* Sign Up */
+.sign-up {
+  background-color: var(--accent);
+  width: var(--content-width);
+  margin: 80px auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sign-up-header {
+  color: var(--primary-light);
+  font-size: 20px;
+}
+
+.sign-up .sign-up-btn {
+  border: solid var(--primary-light) 1px;
+}
