@@ -14,6 +14,8 @@
   --small-size: 18px; 
   --thick-weight: 800; 
   --light-weight: 300;
+
+  --content-width: 60vw;
 }
 
 body {
@@ -27,7 +29,7 @@ body {
 }
 
 .header.content {
-  width: 80vw;
+  width: var(--content-width);
   margin: auto;
   padding: 10px 0;
   display: flex; 
@@ -56,7 +58,7 @@ a {
 }
 
 .welcome.content {
-  width: 80vw; 
+  width: var(--content-width); 
   margin: auto; 
   padding: 80px 0;
   display: flex;
@@ -93,8 +95,9 @@ a {
   justify-content: center;
 }
 
+/* Information */
 .information {
-  width: 80vw; 
+  width: var(--content-width); 
   margin: auto;
   padding-bottom: 80px;
 }
@@ -117,10 +120,31 @@ a {
 .information .image {
   height: 140px; 
   width: 140px;
-  border: solid var(--accent) 2px;
+  border: solid var(--accent) 3px;
   border-radius: 10px;
 }
 
 .information .text {
   max-width: 140px;
+}
+
+/* Quote */
+.quote {
+  background-color: var(--secondary-light);
+}
+
+.quote .content {
+  width: var(--content-width); 
+  margin: auto;
+  padding: 80px 0;
+}
+
+.quote .text {
+  color: var(--primary-dark); 
+  font-size: var(--medium-size); 
+  font-weight: var(--light-weight);
+}
+
+.quote .author {
+  text-align: end;
 }
