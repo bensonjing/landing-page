@@ -13,7 +13,6 @@
   --medium-size: 36px; 
   --small-size: 18px; 
   --thick-weight: 800; 
-  --medium-weight: 400; 
   --light-weight: 300;
 }
 
@@ -65,17 +64,13 @@ a {
   gap: 20px;
 }
 
-.welcome.left {
-
-}
-
 .welcome.title {
   color: var(--primary-light);
   font-size: var(--large-size); 
   font-weight: var(--thick-weight);
 }
 
-.welcome.text {
+.text {
   color: var(--secondary-light); 
   font-size: var(--small-size); 
 }
@@ -96,4 +91,36 @@ a {
   display: flex; 
   align-items: center; 
   justify-content: center;
+}
+
+.information {
+  width: 80vw; 
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.information .title {
+  color: var(--primary-dark); 
+  font-size: var(--medium-size);
+  font-weight: var(--thick-weight);
+  margin: 40px 0;
+  text-align: center;
+}
+
+.information .boxes {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.information .image {
+  height: 140px; 
+  width: 140px;
+  border: solid var(--accent) 2px;
+  border-radius: 10px;
+}
+
+.information .text {
+  max-width: 140px;
 }
